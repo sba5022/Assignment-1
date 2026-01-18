@@ -1,0 +1,379 @@
+/*#kv-logo {
+    width: 80%;
+    max-width: 1536px;
+    padding: 16px 120px 0 16px;
+}*/
+* {
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.inter-font .kv-img {
+    width: 139px;
+    height: 60px;
+}
+
+nav {
+    width: 70%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .kv-img {
+    width: 139px;
+    height: 60px;
+    margin-top: 16px;
+    margin-left: 1px;
+
+}
+
+.kv-list .kv-ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    list-style: none;
+    margin-top: 34px;
+    align-items: center;
+}
+
+.kv-ul .btn {
+    margin-top: 24px;
+    background-color: #469165;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    margin-bottom: 34px;
+    cursor: pointer;
+}
+
+.kv-ul .btn:hover {
+    color: red;
+}
+
+.banner .img-bg {
+    background: url(../stylesa/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 70px 120px 120px 134px;
+}
+
+.img-bg .circle-btn {
+
+    color: #469165;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    margin: 50px 650px;
+    margin-bottom: 16px;
+    padding: 8px 34px 12px 8px;
+    cursor: pointer;
+}
+
+.img-bg .circle-btn:hover {
+    color: red;
+}
+
+.img-bg .para h1 {
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    text-align: center;
+}
+
+.img-bg .para p {
+    color: #30B868;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.img-bg .graph {
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 32px;
+}
+
+/*.img-bg .side-btn {
+    display: flex;
+    gap: 1px;
+}*/
+
+.img-bg .arrow {
+    color: white;
+    background-color: #469165;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 500px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.img-bg .arrow:hover {
+    color: red;
+}
+
+.img-bg .video {
+    color: white;
+    background-color: transparent;
+    border: white;
+
+    margin: 50px 500px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.img-bg .video:hover {
+    color: red;
+}
+
+.notes .notes-heading h1 {
+    font-size: 48px;
+    font-weight: bold 700px;
+    padding: 120px 120px 10px;
+    text-align: center;
+}
+
+.notes .notes-heading p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.notes-contain {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.notes-contain .notes-box {
+    padding: 44px 120px 44px;
+    box-shadow: 0 1px 3px 0 #000000;
+    max-width: 322px;
+    text-align: center;
+    width: 322px;
+    height: 360px;
+}
+
+.notes-contain .notes-box img {
+    background-color: #F95555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.notes-contain .notes-box h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.notes-contain .notes-box p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.second {
+    max-width: 1660px;
+    height: 840px;
+    padding: 120px;
+}
+
+.second .second-left {
+    width: 600px;
+    height: 600px;
+}
+
+.second .second-brain {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.second-brain .second-right h6 {
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+.second-brain .second-right h2 {
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.second-brain .second-right p {
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400px;
+    margin-bottom: 40px;
+}
+
+.second-brain .second-right ul {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500px;
+    list-style: none;
+    color: #001931;
+
+}
+
+.second-right ul .fst {
+    margin-bottom: 16px;
+
+}
+
+.second-right ul .snd {
+    margin-bottom: 16px;
+
+}
+
+.second-right ul .trd {
+    margin-bottom: 16px;
+
+}
+
+.second-right ul .fth {
+    margin-bottom: 16px;
+
+}
+
+.early {
+    padding-top: 2px;
+}
+
+.early .early-container {
+    padding: 2px 120px 120px 120px;
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.early-container .early-heading h4 {
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.early-container .early-heading p {
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.early-container .early-heading .btn-second {
+    background-color: #469165;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    margin: 5px 400px;
+    margin-bottom: 16px;
+}
+
+.early-heading .btn-second:hover {
+    color: red;
+}
+
+.early-container .early-heading h6 {
+    color: #627382;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+/*.early-heading .half-btn {
+    display: flex;
+    gap: 10px;
+}*/
+.last {
+    background-color: #001931;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.last .again-logo {
+    width: 139px;
+    height: 60px;
+    padding-top: 60px;
+    padding-left: 120px;
+    max-width: 1440px;
+    margin-bottom: 168px;
+}
+
+.last-container .last-heading {
+    display: flex;
+    justify-content: space-around;
+    gap: 900px;
+
+}
+
+.last-heading .social h5 {
+    color: white;
+    padding-top: 60px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500px;
+    font-style: normal;
+    margin-bottom: 16px;
+}
+
+.social .social-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.social .social-list li {
+    list-style: none;
+}
+
+.last-heading hr {
+    color: rgb(176, 171, 171);
+    margin: 20px 20px;
+
+}
+
+.last .line {
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.last .line p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400px;
+    font-style: normal;
+}
